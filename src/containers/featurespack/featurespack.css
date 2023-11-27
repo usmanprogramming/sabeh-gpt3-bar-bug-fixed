@@ -1,0 +1,66 @@
+.gpt3__features-container__feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 1rem;
+}
+.gpt3__features-container__feature-title{
+    flex: 1;
+    max-width: 180px;
+    margin-right: 5rem;
+    width: 37px;
+    
+
+}
+.gpt3__features-container__feature-title h1{
+
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -0.06em;
+color: #FFFFFF;
+width: 130px;
+}
+
+.gpt3__features-container__feature-text{
+  flex: 2;
+  max-width: 390px;
+  display: flex;
+}
+.gpt3__features-container-text p{
+    /* We so opinion friends me message as delight. Whole front do of plate heard oh ought. */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+color: #81AFDD;
+}
+.gpt3__features-container__feature-title div{
+
+
+    display: block; /* Set display to block to make it visible */
+    width: 34px;
+    height: 2px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    margin-bottom: 0.25rem; /* Add some spacing below the box */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35)  ;
+}
+@media screen and (max-width: 550px){
+    .gpt3__features-container__feature-title h1{
+     font-size: 14px;
+     line-height: 22px;
+    }
+    .gpt3__features-container__feature p{
+        font-size: 12px;
+        line-height: 20px;
+       }
+       .gpt3__features-container__feature{
+
+       }
+}
+    
